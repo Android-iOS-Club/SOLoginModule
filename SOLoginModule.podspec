@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.subspec 'Manager' do |ss1|
-        ss1.source_files = 'SOLoginModule/Classes/Manager/*.{h,m}'
+  s.subspec 'Com' do |ss1|
+        ss1.source_files = 'SOLoginModule/Classes/Com/*.{h,m}'
     end
   
   s.subspec 'UI' do |ss2|

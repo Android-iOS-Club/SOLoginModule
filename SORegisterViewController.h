@@ -1,6 +1,6 @@
 //
-//  SOLoginViewController.h
-//  AFNetworking
+//  SORegisterViewController.h
+//  SOLoginModule
 //
 //  Created by Sharker on 2021/7/17.
 //
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SOLoginViewController : UIViewController
+@interface SORegisterViewController : UIViewController
 
 @end
 
