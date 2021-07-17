@@ -1,0 +1,16 @@
+PODS:
+  - SOLoginModule (0.1.0)
+
+DEPENDENCIES:
+  - SOLoginModule (from `../`)
+
+EXTERNAL SOURCES:
+  SOLoginModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SOLoginModule: 3270195250e432d33d5eca069549cf072f6db47e
+
+PODFILE CHECKSUM: a207ca9ce40142e734a98dbbae309ca687df030d
+
+COCOAPODS: 1.10.0

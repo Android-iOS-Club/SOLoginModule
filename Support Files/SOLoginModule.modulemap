@@ -1,0 +1,6 @@
+framework module SOLoginModule {
+  umbrella header "SOLoginModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

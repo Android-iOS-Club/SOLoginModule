@@ -1,0 +1,22 @@
+{
+  "name": "SOLoginModule",
+  "version": "0.1.0",
+  "summary": "A short description of SOLoginModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1548742234@qq.com/SOLoginModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1548742234@qq.com": "aaksharker@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/1548742234@qq.com/SOLoginModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SOLoginModule/Classes/**/*"
+}

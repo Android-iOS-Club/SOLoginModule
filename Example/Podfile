@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SOLoginModule_Tests' do
+  pod 'SOLoginModule', :path => '../'
+  
+  
+end
