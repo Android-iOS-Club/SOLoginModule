@@ -34,21 +34,10 @@ TODO: Add long description of the pod here.
         ss1.source_files = 'SOLoginModule/Classes/Com/*.{h,m}'
     end
   
-  s.subspec 'UI' do |ss2|
-        ss2.source_files = 'SOLoginModule/Classes/UI/*.{h,m}'
-    end
-  
   s.subspec 'VC' do |ss3|
         ss3.source_files = 'SOLoginModule/Classes/VC/*.{h,m}'
     end
   
-  # s.resource_bundles = {
-  #   'SOLoginModule' => ['SOLoginModule/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
   s.static_framework = true
   s.dependency 'WechatOpenSDK', '1.8.7.1'
 end
