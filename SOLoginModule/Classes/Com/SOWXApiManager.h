@@ -15,7 +15,7 @@ typedef NS_ENUM(NSInteger, SOWXReqType) {
 };
 @interface SOWXApiManager : NSObject<WXApiDelegate>
 
-+(instancetype)defaultManager;
++ (instancetype)defaultManager;
 
 /// 启动微信SDK
 - (void)setupWXSDKWithApp:(NSString *)app universalLink:(NSString *)universalLink;
