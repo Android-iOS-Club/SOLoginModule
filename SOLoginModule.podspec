@@ -21,23 +21,27 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1548742234@qq.com/SOLoginModule'
+  s.homepage         = 'https://github.com/Android-iOS-Club/SOLoginModule.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1548742234@qq.com' => 'aaksharker@gmail.com' }
-  s.source           = { :git => 'https://github.com/1548742234@qq.com/SOLoginModule.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/Android-iOS-Club/SOLoginModule.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
   s.subspec 'Com' do |ss1|
-        ss1.source_files = 'SOLoginModule/Classes/Com/*.{h,m}'
+        ss1.source_files = 'SOLoginModule/Com/*.{h,m}'
     end
   
-  s.subspec 'VC' do |ss3|
-        ss3.source_files = 'SOLoginModule/Classes/VC/*.{h,m}'
+  s.subspec 'VC' do |ss2|
+        ss2.source_files = 'SOLoginModule/VC/*.{h,m}'
+    end
+  
+  s.subspec 'Model' do |ss3|
+        ss3.source_files = 'SOLoginModule/Model/*.{h,m}'
     end
   
   s.static_framework = true
   s.dependency 'WechatOpenSDK', '1.8.7.1'
+  s.vendored_libraries = 'WechatOpenSDK/OpenSDK1.8.7.1/*.a'
 end
